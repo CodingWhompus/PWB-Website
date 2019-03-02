@@ -19,5 +19,12 @@ noButton.addEventListener('click', function () {
     noText()
 })
 
+let beliefQuestion = document.getElementById("belief");
+beliefQuestion.addEventListener('submit', function (event) {
+    event.preventDefault()
+    console.log('marsupial')
+})
+
+
 
 
