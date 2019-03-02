@@ -1,3 +1,89 @@
-h1 {
-color: purple;
+* {
+    box-sizing: border-box;
+}
+
+#title {
+color: #2d0441;
+font-size: 60px;
+font-family: 'Srisakdi', serif;
+font-style: normal;
+font-weight: 500;
+font-style: bold;
+margin-left: 75px;
+margin-right: 75px;
+}
+.overlay {
+    text-align: center;
+    background-color: rgb(152, 193, 239);
+      
+}
+
+.top {
+    font-family: verdana;
+}
+
+
+
+label {
+    font-family: 'Laila';
+    font-weight: 50px;
+    color: rgb(18, 7, 37);
+}
+
+.parent {
+    display: flex;
+    border: 15px dotted maroon;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+
+#left {
+    height: 300px;
+    width: 300px; 
+    border: none;
+    position: relative;
+   margin: auto;
+}
+
+#right {
+    height: 300px;
+    width: 300px;
+    border: none;
+    position: relative;
+    margin: auto;
+}
+
+.question {
+    width: 300px;
+    border: 25px dashed #2d0441;
+    margin: auto;
+    font-family: 'Laila', serif;
+    color: rgb(105, 4, 75);
+    right: 100px;
+    
+}
+
+
+#banner {
+    background-image: url(australia.jpg);
+    height: 500px;
+    width: 700px;
+    margin: auto;
+  
+}
+
+#banner .australia {
+    border: 3px dotted white;
+    position: relative;
+    top: 275px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Laila', serif;
+    margin-top: 50px;
+    text-align: left;
+    padding-bottom: 21px;
+    
+   
+
 }
