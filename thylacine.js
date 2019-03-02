@@ -10,19 +10,32 @@ function noText() {
     alert("You have the heart of a true adventurer!")
 }
 
+function pleaseDecide() {
+    alert("You must decide!!!!")
+}
+
+
+let yesOrNo = null
+
 let yesButton = document.getElementById("yes")
 yesButton.addEventListener('click', function () {
-    yesText()
+    yesOrNo = "yes"
 })
 let noButton = document.getElementById("no")
 noButton.addEventListener('click', function () {
-    noText()
+    yesOrNo = "no"
 })
 
 let beliefQuestion = document.getElementById("belief");
 beliefQuestion.addEventListener('submit', function (event) {
     event.preventDefault()
-    console.log('marsupial')
+    if (yesOrNo === "yes") {
+        yesText()
+    } else if (yesOrNo === "no") {
+        noText()
+    } else {
+        pleaseDecide()
+    }
 })
 
 
